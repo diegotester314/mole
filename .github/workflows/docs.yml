@@ -11,7 +11,9 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v2
-
+      - name: Copy schema
+        run: |
+          cp mole/schema.yaml docs/raw
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
