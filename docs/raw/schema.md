@@ -14,6 +14,7 @@ const ui = SwaggerUIBundle({
         SwaggerUIBundle.SwaggerUIStandalonePreset
     ],
     layout: "BaseLayout",
-    supportedSubmitMethods: []
+    supportedSubmitMethods: [],
+    apisSorter : "alpha"
     });
 </script>
