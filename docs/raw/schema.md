@@ -16,6 +16,7 @@ const ui = SwaggerUIBundle({
     layout: "BaseLayout",
     supportedSubmitMethods: [],
     operationsSorter : "alpha",
-    tagsSorter: 'alpha'
+    tagsSorter: 'alpha',
+    docExpansion: "none"
     });
 </script>
