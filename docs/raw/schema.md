@@ -1,8 +1,8 @@
 # Schema
 
 <div id="swagger-ui"></div>
-<link rel="stylesheet" type="text/css" href="//unpkg.com/swagger-ui-dist@3/swagger-ui.css" />
-<script src="//unpkg.com/swagger-ui-dist@3/swagger-ui-bundle.js"></script>
+<link rel="stylesheet" type="text/css" href="css/swagger-ui.css" />
+<script src="js/swagger-ui-bundle.js"></script>
 <script>
 var href = window.location.href.toString();
 const schema_path = href.replace("html", "yaml")
